@@ -1,0 +1,46 @@
+body{
+    height: 100vh;
+    background: url(pool.jpeg) no-repeat center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 60%;
+    height: 250px;
+    background-color: aliceblue;
+    border-radius: 30px;
+    box-shadow: 0 0 3px;
+}
+
+#timer{
+    width: 100%;
+    font-size: 50px;
+    text-align:center;
+    margin: 0px auto;
+    padding: 35px;
+
+}
+.buttons{
+    text-align: center;
+    margin-top: 50px;
+}
+button{
+    max-width: 0 10px;
+    border: none;
+}
+button i {
+    font-size: 2rem;
+    padding: 10px;
+    
+}
+#play{
+    background-color: rgb(2, 63, 63);
+}
+#pause{
+    background-color: orange;
+}
+#reset{
+    background-color: red;
+}
